@@ -1,0 +1,56 @@
+.experience {
+    display: flex;
+    height: 80%;
+    background-color: rgba(78, 34, 94, 0.8);
+    padding: ;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";   
+    text-align: center;
+    flex-direction: column;
+}
+
+.background-experience {
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("/image/Без-имени-2.png");
+    flex-direction: column;
+}
+
+.experience-content__heading {
+    font-size: 40px;
+    color: white;
+}
+
+.experience-content__text {
+    font-size: 20px;
+    color: #a87bb7;
+    padding: 40px 0;
+    line-height: 30px;
+}
+
+.experience-content__button {
+    border: 1.2px outset #b87ce1;
+    display: flex;
+    background-color: #8824cd;
+    border-radius: 30px;
+    width: 270px;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.experience-button__text {
+    font-size: ;
+    color: white;
+    font-weight: bold;
+}
+
+.experience-content__smalltext {
+    color: white;
+    font-size: 13px;
+}

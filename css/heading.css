@@ -1,0 +1,37 @@
+.heading {
+    display: inline-flex;
+    background-color: white; 
+    width: ;
+    font-family: "Open Sans";
+}   
+
+.heading__image {
+    background-size: cover;
+    background-image: url("/image/Без-имени-5.png");
+    padding: 250px 290px;
+}
+
+.heading__content {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.heading-content__header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.heading-content__text {
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.heading-content__text2 {
+    font-size: 15px;
+    line-height: 25px;
+}

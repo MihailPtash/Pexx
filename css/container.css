@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+}
+
+
+.container__content {
+    width: 84%;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url("/image/background1.png");
+    background-size: initial;
+}
+
+.background__1 {
+    background-image: url("/image/Без-имени-4.gif"); 
+    background-size: 100% 190%;
+    background-position: bottom;
+    
+}

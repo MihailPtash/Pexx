@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+
+
+.face {
+    display: flex;
+    padding: 250px 0;
+    font-family: "Open Sans";
+    align-items: flex-start;
+}
+
+.face__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    padding-left: 200px;
+    flex-direction: column;
+}
+
+.face-container__text {
+    color: lavender;
+    font-size: 50px;
+    font-family: "Open Sans";
+    text-align: right;
+    line-height: 70px;
+}
+
+.container-button {
+    border: 1.2px outset #b87ce1;
+    display: flex;
+    background-color: #8824cd;
+    border-radius: 30px;
+    width: 280px;
+    height: 47px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.buton-change__text{
+   color: white;
+   font-size: 20px;
+}
+
+.face-container__smalltext {
+    font-size: 12px;
+    color: white
+}
+    
+.face-container__button {
+    padding-top: 50px;
+    display: block;
+    width: 280px;
+    height: 110px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

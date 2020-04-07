@@ -1,0 +1,46 @@
+.wickedwack {
+    border:1px ridge #455975;
+    padding: 170px 0;
+    background-color: rgba(231,82,107,0.5);
+    font-family: "Open Sans";
+}
+
+.wickedwack__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wickedwack-content__heading {
+    font-size: 35px;
+    color: white;
+}
+
+.wickedwack-content__text {
+    font-size: 17px;
+    color: white;
+    padding: 30px;
+    line-height: 25px;
+}
+
+.wickedwack-content__button {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    width: 280px;
+    height: 57px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.wickedwack-button__text {
+    color: #e7526b;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px ridge #455975;
+    background-color: #2e3b4e; 
+    padding: 50px 0;
+    font-family: "Open Sans";
+    color: white;
+}
+
+.information__container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information-content__heading {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.information__content {
+    padding: 40px;
+}
+
+.information-content__text {
+    line-height: 30px;
+}

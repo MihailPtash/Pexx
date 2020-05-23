@@ -1,14 +1,14 @@
 .heading {
-    display: inline-flex;
+    display: flex;
     background-color: white; 
-    width: ;
     font-family: "Open Sans";
+    justify-content: flex-start;
 }   
 
 .heading__image {
     background-size: cover;
     background-image: url("/image/Без-имени-5.png");
-    padding: 250px 290px;
+    padding: 250px 340px;
 }
 
 .heading__content {
@@ -16,7 +16,7 @@
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
-    padding-left: 90px;
+    padding: 0px 90px;
 }
 
 .heading-content__header {
@@ -35,3 +35,17 @@
     font-size: 15px;
     line-height: 25px;
 }
+
+.heading__image2 {
+    background-size: cover;
+    background-image: url("/image/Без-имени-7.png");
+    padding: 250px 340px;
+}
+
+.heading2{
+    display: flex;
+    background-color: white; 
+    font-family: "Open Sans";
+    justify-content: flex-end;
+}   
+

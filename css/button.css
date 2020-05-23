@@ -1,0 +1,34 @@
+.button {
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    margin: 10px 0;
+}
+
+.button_purple {
+    border-style: ;
+    background-color: #8824cd;
+    color:white;
+    border: 1.2px outset #b87ce1;
+}
+
+.button_white {
+    background-color: white;
+    color: #e7526b;
+}
+
+.button_transparent {
+    color: white;
+    border: 2px solid white;
+}
+
+.button_small {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+.button_big {
+    padding: 20px 86px;
+}

@@ -1,5 +1,11 @@
 .footer {
     background-color: #2e3b4e;
-    padding: 170px 0;
+    height: 340px;
 }
+
+.footer__text {
+    padding: 60px 180px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: white;
 }

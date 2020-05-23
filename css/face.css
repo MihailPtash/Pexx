@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
 
 
-.face {
+.face-container {
     display: flex;
     padding: 250px 0;
     font-family: "Open Sans";
     align-items: flex-start;
 }
 
-.face__container {
+.face {
     display: flex;
     align-items: flex-end;
     justify-content: start;
@@ -16,12 +16,13 @@
     flex-direction: column;
 }
 
-.face-container__text {
+.face__text {
     color: lavender;
     font-size: 50px;
     font-family: "Open Sans";
     text-align: right;
     line-height: 70px;
+    margin-bottom: 40px;
 }
 
 .container-button {
@@ -42,12 +43,13 @@
    font-size: 20px;
 }
 
-.face-container__smalltext {
+.face__smalltext {
     font-size: 12px;
-    color: white
+    color: white;
+    padding: 0 25px;
 }
     
-.face-container__button {
+.face__button {
     padding-top: 50px;
     display: block;
     width: 280px;

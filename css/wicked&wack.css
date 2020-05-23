@@ -1,4 +1,8 @@
 .wickedwack {
+    background-image: linear-gradient(45deg, #4e111b, #4d030f), url("/image/Без-имени-4.gif");
+    background-blend-mode: soft-light; 
+    background-size: 100% 400%;
+    background-position: center bottom 15%;
     border:1px ridge #455975;
     padding: 170px 0;
     background-color: rgba(231,82,107,0.5);

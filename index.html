@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/heading2.css">
     <link rel="stylesheet" href="css/getintouch.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/button.css">
 </head>
 
 <body>
@@ -23,12 +24,12 @@
         <div class="container__content">
             <div class="background">
                 <header class="header">
-                    <div class="logo">
+                    <div class="header__logo">
                         <img src="image/Без-имени-1.png">
                     </div>
                     <div class="header__menu">
                         <ul class="header-menu">
-                            <li class="header-menu__item">
+                            <li class="header-menu__item header-menu__item_active">
                                 <a href="#" class="header-menu-link">About</a>
                             </li>
                             <li class="header-menu__item">
@@ -44,55 +45,51 @@
                             <li class="header-menu__item">
                                 <a href="#" class="header-menu-link">Contact</a>
                             </li>
-                            <li class="header-menu__item form">
-                                <form>
-                                    <input type="text" placeholder="Искать здесь...">
-                                    <button type="submit"></button>
-                                </form>
-                            </li>
                         </ul>
                     </div>
+                    <div class="header__form">
+                        <form class="header-form">
+                            <input class="header-form__input" type="text" placeholder="Search Website">
+                            <button class="header-form__button" type="submit"></button>
+                        </form>
+                    </div>
                 </header>
-                <div class="face">
-                    <div class="face__container face-container">
-                        <p class="face-container__text">Designs your eyeballs <br> will thank you for</p>
-                        <div class="face-container__button">
-                            <a href="/">
-                                <div class="container-button buton-change">
-                                    <p class="buton-change__text">Get Started Today</p>
-                                </div>
-                            </a>
-                            <p class="face-container__smalltext">Lorem ipsum dolor sit amet, consectetur</p>
-                        </div>
+                <div class="face-container">
+                    <div class="face">
+                        <strong class="face__text">Designs your eyeballs <br> will thank you for</strong>
+                        <a class="button button_purple" href="/">
+                            Get Started Today
+                        </a>
+                        <div class="face__smalltext">Lorem ipsum dolor sit amet, consectetur</div>
                     </div>
                 </div>
             </div>
             <div class="information">
                 <div class="information__container">
-                    <div class="information__content information-content">
-                        <p class="information-content__heading">A FANTASTIC HEADING</p>
+                    <section class="information__content information-content">
+                        <h2 class="information-content__heading">A FANTASTIC HEADING</h2>
                         <p class="information-content__text">Lorem ipsum dolor sit amet, consrctetur adipisicing
                             elit,<br>
                             sed do eiusmod tempor incididunt ut labore et dolore<br>
                             magna aliqua. Ut enim ad minim veniam, quis nostrug
                         </p>
-                    </div>
-                    <div class="information__content">
-                        <p class="information-content__heading">GOOD DAY BLOKES</p>
+                    </section>
+                    <div class="information__content information-content">
+                        <h2 class="information-content__heading">GOOD DAY BLOKES</h2>
                         <p class="information-content__text">Lorem ipsum dolor sit amet, consrctetur adipisicing
                             elit,<br>
                             sed do eiusmod tempor incididunt ut labore et dolore<br>
                             magna aliqua. Ut enim ad minim veniam, quis nostrug
                     </div>
-                    <div class="information__content">
-                        <p class="information-content__heading">BLAZ ROBAR for PRESIDENT</p>
+                    <div class="information__content information-content">
+                        <h2 class="information-content__heading">BLAZ ROBAR FOR PRESIDENT</h2>
                         <p class="information-content__text">Lorem ipsum dolor sit amet, consrctetur adipisicing
                             elit,<br>
                             sed do eiusmod tempor incididunt ut labore et dolore<br>
                             magna aliqua. Ut enim ad minim veniam, quis nostrug
                     </div>
-                    <div class="information__content">
-                        <p class="information-content__heading">VOTE FOR ROBAR</p>
+                    <div class="information__content information-content">
+                        <h2 class="information-content__heading">VOTE FOR ROBAR</h2>
                         <p class="information-content__text">Lorem ipsum dolor sit amet, consrctetur adipisicing
                             elit,<br>
                             sed do eiusmod tempor incididunt ut labore et dolore<br>
@@ -100,27 +97,23 @@
                     </div>
                 </div>
             </div>
-            <div class="background__1">
                 <div class="wickedwack">
                     <div class="wickedwack__content wickedwack-content">
-                        <p class="wickedwack-content__heading">Wicked & whack, bang bang boo!</p>
+                        <h1 class="wickedwack-content__heading">Wicked & whack, bang bang boo!</h1>
                         <p class="wickedwack-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing, sed
                             do<br>
                             eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut
                         </p>
-                        <a class="link" href="/">
-                            <div class="wickedwack-content__button wickedwack-button">
-                                <p class="wickedwack-button__text">Get Started Today</p>
-                            </div>
+                        <a class="button button_white button_big" href="/">
+                            Get Started Today
                         </a>
                     </div>
                 </div>
-            </div>
             <div class="heading">
                 <div class="heading__image">
                 </div>
                 <div class="heading__content heading-content">
-                    <p class="heading-content__header">A HEADING IS WHAT YOU NEED HERE</p>
+                    <h2 class="heading-content__header">A HEADING IS WHAT YOU NEED HERE</h2>
                     <p class="heading-content__text">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                         minim<br>
                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
@@ -137,24 +130,68 @@
             </div>
             <div class="background-experience">
                 <div class="experience experience-content">
-                    <p class="experience-content__heading">Experience the rush today</p>
+                    <h1 class="experience-content__heading">Experience the rush today</h1>
                     <p class="experience-content__text">Lorem ipsum sit amet, cosectetur adipisicing elit, sed do
                         eiusmod tempor<br>
                         incididunt ut labore et dolore magna aliqua consectetur adipisicing elit
                     </p>
-                    <div class="experience-content__button experience-button">
-                        <p class="experience-button__text">Get Started Today</p>
-                    </div>
-                    <p class="experience-content__smalltext">Lorem ipsum dolor sir amet, consectetur</p>
+                    <a class="button button_purple" href="/">
+                        Get Started Today
+                    </a>
+                    <h1 class="experience-content__smalltext">Lorem ipsum dolor sir amet, consectetur</h1>
                 </div>
             </div>
             <div class="photography">
+                <div class="photography__content">
+                    <a class="button button_transparent button_small" href="/">
+                        Photography
+                    </a>
+                    <p class="photography__heading">Lorem ipsum dolor sit amet<br>
+                        consectetur adipisicing elit
+                    </p>
+                    <div class="photography__image photography-image">
+                        <div class="photography-image__images">
+                        </div>
+                        <p class="photography-image__text">Blaz Robar, god like web designer</p>
+                    </div>
+                </div>
             </div>
             <div class="heading2">
+                <div class="heading__content heading-content">
+                    <h2 class="heading-content__header">A HEADING IS WHAT YOU NEED HERE</h2>
+                    <p class="heading-content__text">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim<br>
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
+                        commodo consequat. Duis aute irure dolor in reprehenderit in volupate<br>
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="heading-content__text2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        afficia deserunt mollit amin<br>
+                        id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<br>
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et<br>
+                        quasi architecto beatae vitae dicta sunt explicabo
+                    </p>
+                </div>
+                <div class="heading__image2">
+                </div>
             </div>
             <div class="getintouch">
+                <div class="getintouch__content getintouch-content">
+                    <h2 class="getintouch-content__heading">GET IN TOUCH</h2>
+                    <p class="getintouch-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+                        sed do eiusmod tempor incididunt ut labore et dolore<br>
+                        magna aliqua.
+                    </p>
+                    <a href="/">
+                        <p class="getintouch-content__email">help@yomuma.com</p>
+                    </a>
+                </div>
             </div>
             <footer class="footer">
+                <p class="footer__text">
+                    psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.
+                </p>
             </footer>
         </div>
     </div>

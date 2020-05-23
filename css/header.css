@@ -4,9 +4,10 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    border-bottom: 1px inset white;
+    border-bottom: 1px inset #3b2c38;
 }
 
-.logo {
+.header__logo {
     padding-left: 200px; 
+    flex-grow: 2;
 }
